@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style08.css">
+</head>
+<body>
+  <header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo"><span>BAKE TASTE</span></a>
+
+    <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="products.html">products</a>
+      <a href="review.html">review</a>
+      <a href="contact.html">contact</a>
+
+    </nav>
+
+    <div class="icons">
+      <a href="favourites.html" class="fas fa-heart"></a>
+      <a href="cart.html" class="fas fa-shopping-cart"></a>
+      <a href="account.html" class="fas fa-user"></a>
+    </div>
+
+  </header>
+ 
+    
+  <h1>Product Reviews</h1>
+  <h2><left>Customer Reviews</left></h2>
+
+  <main>
+    <section class="review-container">
+      
+      <div class="review">
+        <h3 class="review-title">Great Product!</h3>
+        <p class="review-content">I ordered a rose gold butterfly cake for my mother's 80th birthday party..the
+           cake was delivered on the stated day, beautifully packed and with instructions on how to assemble. The 
+           only slight issue we had was that no icing glue was included (3 of us looked thoroughly for it) but we 
+           were still able to put the cake together so that it looked just like the picture.
+          The cake itself was beautiful, light and tasty and enjoyed by everyone. I will definitely use The Cake 
+          Store in future.</p>
+          <p class="review-author">- Verny Redias</p>
+      </div>
+      <div class="review">
+        <h3 class="review-title">Not Bad, But Could Be Better</h3>
+        <p class="review-content">I was a bit apprehensive ordering from here after seeing the very mixed reviews,
+           however, I had an email from sarah asking if I would like the order on the day of my daughters birthday
+            as it was a bank holiday and they would be fresher and last longer. She even made sure they were 
+            delivered before 1030am on her birthday and answered my phone call and email very efficiently the day 
+            before too, regarding some queries I had. My daughter said it was the best cake ever and the sponge was 
+            second to none. Someone said about the figures you add looking like they were from Poundland, I care to
+             disagree. It was all packaged perfectly and arrived in perfect condition also with nutritional advice 
+             and how to stack it together etc. I will definitely be ordering again. Thank you</p>
+        <p class="review-author">- Jane Smith</p>
+      </div>
+      <div class="review">
+        <h3 class="review-title">WonderFul Cake!</h3>
+        <p class="review-content">Ordered a 25th birthday cake for my daughter, to be sent to an Airbnb in 
+          Derbyshire. As it was to go to a huge house on a country lane I was delighted the courier found it! 
+          It looked exactly as I had hoped. Perfectly decorated and in perfect condition. I have been assured that 
+          it was "the best sponge cake ever"..a huge compliment from my daughter. All 17 guests also loved it.
+           Cannot recommend this company and service highly enough. A big 'Thank you' to The Cake Store.</p>
+        <p class="review-author">- Anne Lepoze</p>
+      </div> 
+      <div class="review">
+        <h3 class="review-title">The best Cake</h3>
+        <p class="review-content">The best cake! My sister ordered a wedding cake with cupcakes for my wedding, after
+           having ordered a birthday cake from the cake store previously and being impressed. We were not disappointed!
+            The main cake was lemon drizzle and it was so light and tasty. The cupcakes were a mixture of chocolate and
+             vanilla and were gorgeous. Everything was beautifully decorated. It all came well packaged with step by 
+             step instructions of how to put it together. We are still getting compliments about the cake several weeks
+              on. I can't recommend this store enough for mail order cake</p>
+        <p class="review-author">- sarah Samual</p>
+      </div> 
+      <div class="review">
+        <h3 class="review-title">Birthday Cake</h3>
+        <p class="review-content">I order a birthday cake in October for delivery in November. The cake arrived on the
+           date request in excellent condition. The cake was very moist with just a thin layer of icing and tasted 
+           absolutely lovely, all my guests without exception really enjoyed it. Thanks The Cake Store, I will 
+           definitely use you again.</p>
+        <p class="review-author">- Margaret Smith</p>
+      </div>
+      <form id="reviewForm">
+        <h2>Add Your Review</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating" required>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Fair</option>
+            <option value="1">1 - Poor</option>
+        </select>
+        <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 BAKE TASTE Company. All rights reserved.</p>
+</footer>
+</body>
+</html>
